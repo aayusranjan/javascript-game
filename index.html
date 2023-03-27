@@ -3,20 +3,27 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="gamescript.js" type="module"></script>
     <title> Hacker Type Clone </title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
-    <!-- count, how many times we hitted keypad -->
-    <p> <span id="keystrokeCount">0</span></p>
-    <div id="container" class="centered">
-        <p id="source"></p>
-    </div>
-
-    <div id="popup" style="display:none;">
-        <p>Succeed</p>
-        <button id="myButton">Click me</button>
+    <div class="box">
+        <!-- count, how many times we hitted keypad -->
+        <p> <span id="keystrokeCount"></span></p>
+        <div id="container" class="centered">
+            <p id="source"></p>
+        </div>
+        <!-- after done with text -->
+        <div id="popup" style="display:none;">
+            <!-- <p>Succeed</p> -->
+            <!-- box game -->
+            <div class="subtext">
+                <!-- Mines Left: <span data-mine-count></span> -->
+            </div>
+            <div class="board"></div>
+        </div>
     </div>
 </body>
 

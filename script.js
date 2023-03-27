@@ -92,10 +92,10 @@ function update() {
   keystrokeCount++;
 
 
-  document.getElementById(
-    "keystrokeCount"
-  ).innerHTML = keystrokeCount;
-  if(keystrokeCount > 20 ){
+  // document.getElementById(
+  //   "keystrokeCount"
+  // ).innerHTML = keystrokeCount;
+  if(keystrokeCount > 100 ){
     const popup = document.getElementById("popup");
     const container = document.getElementById("container");
     container.style.display = "none"
