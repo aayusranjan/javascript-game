@@ -54,10 +54,10 @@ function checkGameEnd() {
   }
 
   if (win) {
-    messageText.textContent = "You Win";
+    messageText.textContent = "successful!";
   }
   if (lose) {
-    messageText.textContent = "You Lose";
+    messageText.textContent = "failed!";
     board.forEach((row) => {
       row.forEach((tile) => {
         if (tile.status === TILE_STATUSES.MARKED) markTile(tile);
