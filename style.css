@@ -1,0 +1,27 @@
+body {
+}
+
+#container {
+    background-color: rgb(12, 12, 12);
+    width: 600px;
+    min-height: 400px;
+    position: relative;
+    overflow-x: clip;
+    overflow-y: auto;
+    position: relative;
+    bottom: 0;
+}
+
+#popup{
+    background-color: #2AD400;
+    width: 600px;
+    min-height: 400px;
+}
+
+#source {
+    color: #2AD400;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Courier New;
+    white-space: pre-wrap;
+}
